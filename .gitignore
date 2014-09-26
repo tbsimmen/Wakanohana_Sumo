@@ -27,3 +27,10 @@
 *.i*86
 *.x86_64
 *.hex
+/Static_Code
+/Debug
+/Documentation
+/Generated_Code
+/*.cwGeneratedFileSetLog
+/*.g_x
+/*.g_c
