@@ -13,6 +13,7 @@
 #if PL_HAS_LED
   #include "LED.h"
 #endif
+#include "WAIT1.h"
 
 
 void APP_Start(void) {
