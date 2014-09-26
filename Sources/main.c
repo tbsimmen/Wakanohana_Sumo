@@ -19,11 +19,11 @@
 ** @brief
 **         Main module.
 **         This module contains user's application code.
-*/         
-/*!
+
+
 **  @addtogroup main_module main module documentation
 **  @{
-*/         
+*/
 /* MODULE main */
 
 
@@ -57,12 +57,29 @@ int main(void)
 
   /* Write your code here */
 
+  for(;;){
+  LED1_On();
+  LED2_Off();
+  LED3_Off();
+  WAIT1_Waitms(200);
+  LED1_Off();
+  LED2_On();
+  LED3_Off();
+  WAIT1_Waitms(200);
+  LED1_Off();
+  LED2_Off();
+  LED3_On();
+  WAIT1_Waitms(200);
+  LED1_Off();
+  LED2_Off();
+  LED3_Off();
+  WAIT1_Waitms(200);
+  LED1_On();
+  LED2_On();
+  LED3_On();
+  WAIT1_Waitms(200);
 
-	LED_Test();
-
-	LED_Test();
-
-for(;;){}
+}
 
 
   /* For example: for(;;) { } */
