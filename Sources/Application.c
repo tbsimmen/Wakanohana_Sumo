@@ -20,6 +20,10 @@
 	#include "Event.h"
 #endif
 
+#if PL_HAS_KEYS
+	#include "Keys.h"
+#endif
+
 
 void APP_EventHandler(EVNT_Handle event){
 	switch(event){
@@ -37,7 +41,16 @@ void APP_EventHandler(EVNT_Handle event){
 				LED3_Off();
 				break;
 		case EVNT_BLINK_LED:
-			LED1_Neg();
+			LED2_Neg();
+			EVNT_ClearEvent(EVNT_BLINK_LED);
+			break;
+		case EVNT_SW1_PRESSED:
+			if(LED3_Get()){
+				LED3_On();
+			}else{
+				LED3_Off();
+			}
+			EVNT_ClearEvent(EVNT_SW1_PRESSED);
 			break;
 		default:
 			break; /*Nothing*/
@@ -50,6 +63,8 @@ static void APP_Loop(void){
 #if PL_HAS_EVENTS
 		EVNT_HandleEvent(APP_EventHandler);
 #endif
+		KEY_Scan();
+
 		WAIT1_Waitms(100);
 	}
 }

@@ -38,4 +38,15 @@ void KEY_Init(void) {
 void KEY_Deinit(void) {
   /* nothing needed for now */
 }
+
+/*! \brief Get Key1 State */
+void SW1_Get(void){
+
+
+}
+
+
 #endif /* PL_HAS_KEYS */
+
+
+

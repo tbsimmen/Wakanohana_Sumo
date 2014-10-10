@@ -28,6 +28,10 @@
 #define PL_HAS_LED  (1)								/*!< Set to 1 to enable LED support, 0 otherwise */
 #define PL_HAS_EVENTS (1)
 #define PL_HAS_TIMER (1)
+#define PL_HAS_KEYS (1)
+#define PL_NOF_KEYS (7)
+#define PL_HAS_KBI (1)
+#define PL_HAS_JOYSTICK (1)
 
 #if PL_IS_FRDM
   #define PL_NOF_LEDS       (3) 					/*!< FRDM board has up to 3 LEDs (RGB) */
