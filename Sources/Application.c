@@ -10,23 +10,81 @@
 
 #include "Platform.h"
 #include "Application.h"
+#include "WAIT1.h"
+
 #if PL_HAS_LED
   #include "LED.h"
 #endif
-#include "WAIT1.h"
+
+#if PL_HAS_EVENTS
+	#include "Event.h"
+#endif
 
 
+void APP_EventHandler(EVNT_Handle event){
+	switch(event){
+		case EVNT_INIT:
+				LED1_On();
+				WAIT1_Waitms(100);
+				LED1_Off();
+				WAIT1_Waitms(100);
+				LED2_On();
+				WAIT1_Waitms(100);
+				LED2_Off();
+				WAIT1_Waitms(100);
+				LED3_On();
+				WAIT1_Waitms(100);
+				LED3_Off();
+				break;
+		case EVNT_BLINK_LED:
+			LED1_Neg();
+			break;
+		default:
+			break; /*Nothing*/
+		}
+}
+
+
+static void APP_Loop(void){
+	for(;;){
+#if PL_HAS_EVENTS
+		EVNT_HandleEvent(APP_EventHandler);
+#endif
+		WAIT1_Waitms(100);
+	}
+}
+
+/*Run this Code on board startup*/
 void APP_Start(void) {
   PL_Init(); /* platform initialization */
-  for(;;) {
-    LED1_Neg();
-    WAIT1_Waitms(300);
-    LED2_Neg();
-    WAIT1_Waitms(300);
-    LED3_Neg();
-    WAIT1_Waitms(300);
+  EVNT_SetEvent(EVNT_INIT); /* set initial Event*/
+  APP_Loop();
+
+#if 0
+  for(;;){
+#if PL_HAS_MEALY
+	  MEALY_Step();
+#else
+	  LED1_On();
+	     WAIT1_Waitms(300);
+	     LED1_Off();
+	     LED2_On();
+	     WAIT1_Waitms(300);
+	     LED2_Off();
+	     LED3_On();
+	     WAIT1_Waitms(300);
+	     LED3_Off();
+#endif
   }
-}
+#endif
+  PL_Deinit(); /* Just in case we leave the main application loop*/
+  }
+
+
+
+
+
+
 
 
 

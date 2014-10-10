@@ -41,6 +41,11 @@
 #include "MyBlueLed.h"
 #include "BitIoLdd3.h"
 #include "WAIT1.h"
+#include "CS1.h"
+#include "HF1.h"
+#include "TMR.h"
+#include "TimerIntLdd1.h"
+#include "TU1.h"
 
 #ifdef __cplusplus
 extern "C" {
@@ -61,6 +66,22 @@ extern "C" {
 /* ===================================================================*/
 void Cpu_OnNMIINT(void);
 
+
+/*
+** ===================================================================
+**     Event       :  TMR_OnInterrupt (module Events)
+**
+**     Component   :  TMR [TimerInt]
+**     Description :
+**         When a timer interrupt occurs this event is called (only
+**         when the component is enabled - <Enable> and the events are
+**         enabled - <EnableEvent>). This event is enabled only if a
+**         <interrupt service/event> is enabled.
+**     Parameters  : None
+**     Returns     : Nothing
+** ===================================================================
+*/
+void TMR_OnInterrupt(void);
 
 /* END Events */
 

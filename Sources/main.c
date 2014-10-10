@@ -37,12 +37,18 @@
 #include "MyBlueLed.h"
 #include "BitIoLdd3.h"
 #include "WAIT1.h"
+#include "CS1.h"
+#include "HF1.h"
+#include "TMR.h"
+#include "TimerIntLdd1.h"
+#include "TU1.h"
 #include "LED.h"
 /* Including shared modules, which are used for whole project */
 #include "PE_Types.h"
 #include "PE_Error.h"
 #include "PE_Const.h"
 #include "IO_Map.h"
+#include "Event.h"
 /* User includes (#include below this line is not maintained by Processor Expert) */
 
 /*lint -save  -e970 Disable MISRA rule (6.3) checking. */
@@ -51,38 +57,27 @@ int main(void)
 {
   /* Write your local variable definition here */
 
+#if PL_HAS_RESET_KEY
+  WAIT1_Waitms(500); /* wait some time until we mux the reset line */
+#endif
+
   /*** Processor Expert internal initialization. DON'T REMOVE THIS CODE!!! ***/
   PE_low_level_init();
   /*** End of Processor Expert internal initialization.                    ***/
-
+  /* INIT - SHOW STARTUP LIGHTS */
+  APP_Start();
   /* Write your code here */
 
-  for(;;){
-  LED1_On();
-  LED2_Off();
-  LED3_Off();
-  WAIT1_Waitms(200);
-  LED1_Off();
-  LED2_On();
-  LED3_Off();
-  WAIT1_Waitms(200);
-  LED1_Off();
-  LED2_Off();
-  LED3_On();
-  WAIT1_Waitms(200);
-  LED1_Off();
-  LED2_Off();
-  LED3_Off();
-  WAIT1_Waitms(200);
-  LED1_On();
-  LED2_On();
-  LED3_On();
-  WAIT1_Waitms(200);
-
-}
 
 
-  /* For example: for(;;) { } */
+
+
+
+
+
+
+  /*EVENT DeInit*/
+  EVNT_Deinit();
 
   /*** Don't write any code pass this line, or it will be deleted during code generation. ***/
   /*** RTOS startup code. Macro PEX_RTOS_START is defined by the RTOS component. DON'T MODIFY THIS CODE!!! ***/

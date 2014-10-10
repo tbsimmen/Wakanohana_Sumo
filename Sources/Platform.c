@@ -16,7 +16,7 @@
 #endif
 
 
-void PL_init(void){
+void PL_Init(void){
 #if PL_HAS_LED
 	LED_Init();
 #endif

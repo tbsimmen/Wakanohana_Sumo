@@ -32,6 +32,11 @@ LED3_Off();
 #endif
 }
 
+
+void LED_Deinit(void){
+
+}
+
 /*!
  * \brief LED test routine.
  * This routine tests if:
