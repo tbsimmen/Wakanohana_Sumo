@@ -63,6 +63,7 @@
 #include "PE_Const.h"
 #include "IO_Map.h"
 #include "Event.h"
+#include "Mealy.h"
 /* User includes (#include below this line is not maintained by Processor Expert) */
 
 /*lint -save  -e970 Disable MISRA rule (6.3) checking. */
@@ -81,8 +82,6 @@ int main(void)
   /* INIT - SHOW STARTUP LIGHTS */
   APP_Start();
   /* Write your code here */
-
-
 
 
 

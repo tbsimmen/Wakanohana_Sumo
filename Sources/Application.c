@@ -80,7 +80,7 @@ void APP_Start(void) {
 #if PL_HAS_MEALY
 	  MEALY_Step();
 #else
-	  LED1_On();
+	 /*LED1_On();
 	     WAIT1_Waitms(300);
 	     LED1_Off();
 	     LED2_On();
@@ -88,7 +88,7 @@ void APP_Start(void) {
 	     LED2_Off();
 	     LED3_On();
 	     WAIT1_Waitms(300);
-	     LED3_Off();
+	     LED3_Off();*/
 #endif
   }
 #endif

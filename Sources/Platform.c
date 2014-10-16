@@ -15,9 +15,17 @@
 	#include "LED.h"
 #endif
 
+#if PL_HAS_MEALY
+	#include "Mealy.h"
+#endif
+
 void PL_Init(void){
 #if PL_HAS_LED
 	LED_Init();
+#endif
+
+#if PL_HAS_MEALY
+	MEALY_Init();
 #endif
 }
 
@@ -26,3 +34,4 @@ void PL_Deinit(void){
 	LED_Deinit();
 #endif
 }
+

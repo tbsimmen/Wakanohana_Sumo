@@ -51,27 +51,58 @@
   <FILES>
     <GeneratedCs>
       <PathName>C:\Users\tbsimmen\Documents\Wakanohana_Sumo\Generated_Code\BitIoLdd1.c</PathName>
+      <PathName>C:\Users\tbsimmen\Documents\Wakanohana_Sumo\Generated_Code\BitIoLdd10.c</PathName>
       <PathName>C:\Users\tbsimmen\Documents\Wakanohana_Sumo\Generated_Code\BitIoLdd2.c</PathName>
       <PathName>C:\Users\tbsimmen\Documents\Wakanohana_Sumo\Generated_Code\BitIoLdd3.c</PathName>
+      <PathName>C:\Users\tbsimmen\Documents\Wakanohana_Sumo\Generated_Code\BitIoLdd4.c</PathName>
+      <PathName>C:\Users\tbsimmen\Documents\Wakanohana_Sumo\Generated_Code\BitIoLdd5.c</PathName>
+      <PathName>C:\Users\tbsimmen\Documents\Wakanohana_Sumo\Generated_Code\BitIoLdd6.c</PathName>
+      <PathName>C:\Users\tbsimmen\Documents\Wakanohana_Sumo\Generated_Code\BitIoLdd7.c</PathName>
+      <PathName>C:\Users\tbsimmen\Documents\Wakanohana_Sumo\Generated_Code\BitIoLdd8.c</PathName>
+      <PathName>C:\Users\tbsimmen\Documents\Wakanohana_Sumo\Generated_Code\BitIoLdd9.c</PathName>
+      <PathName>C:\Users\tbsimmen\Documents\Wakanohana_Sumo\Generated_Code\CS1.c</PathName>
       <PathName>C:\Users\tbsimmen\Documents\Wakanohana_Sumo\Generated_Code\Cpu.c</PathName>
+      <PathName>C:\Users\tbsimmen\Documents\Wakanohana_Sumo\Generated_Code\HF1.c</PathName>
       <PathName>C:\Users\tbsimmen\Documents\Wakanohana_Sumo\Generated_Code\MyBlueLed.c</PathName>
       <PathName>C:\Users\tbsimmen\Documents\Wakanohana_Sumo\Generated_Code\MyGreenLed.c</PathName>
       <PathName>C:\Users\tbsimmen\Documents\Wakanohana_Sumo\Generated_Code\MyRedLed.c</PathName>
       <PathName>C:\Users\tbsimmen\Documents\Wakanohana_Sumo\Generated_Code\PE_LDD.c</PathName>
+      <PathName>C:\Users\tbsimmen\Documents\Wakanohana_Sumo\Generated_Code\SW1.c</PathName>
+      <PathName>C:\Users\tbsimmen\Documents\Wakanohana_Sumo\Generated_Code\SW2.c</PathName>
+      <PathName>C:\Users\tbsimmen\Documents\Wakanohana_Sumo\Generated_Code\SW3.c</PathName>
+      <PathName>C:\Users\tbsimmen\Documents\Wakanohana_Sumo\Generated_Code\SW4.c</PathName>
+      <PathName>C:\Users\tbsimmen\Documents\Wakanohana_Sumo\Generated_Code\SW5.c</PathName>
+      <PathName>C:\Users\tbsimmen\Documents\Wakanohana_Sumo\Generated_Code\SW6.c</PathName>
+      <PathName>C:\Users\tbsimmen\Documents\Wakanohana_Sumo\Generated_Code\SW7.c</PathName>
+      <PathName>C:\Users\tbsimmen\Documents\Wakanohana_Sumo\Generated_Code\TMR.c</PathName>
+      <PathName>C:\Users\tbsimmen\Documents\Wakanohana_Sumo\Generated_Code\TU1.c</PathName>
+      <PathName>C:\Users\tbsimmen\Documents\Wakanohana_Sumo\Generated_Code\TimerIntLdd1.c</PathName>
       <PathName>C:\Users\tbsimmen\Documents\Wakanohana_Sumo\Generated_Code\Vectors.c</PathName>
       <PathName>C:\Users\tbsimmen\Documents\Wakanohana_Sumo\Generated_Code\WAIT1.c</PathName>
       <PathName>C:\Users\tbsimmen\Documents\Wakanohana_Sumo\Project_Settings\Startup_Code\startup.c</PathName>
       <PathName>C:\Users\tbsimmen\Documents\Wakanohana_Sumo\Sources\Application.c</PathName>
+      <PathName>C:\Users\tbsimmen\Documents\Wakanohana_Sumo\Sources\Event.c</PathName>
       <PathName>C:\Users\tbsimmen\Documents\Wakanohana_Sumo\Sources\Events.c</PathName>
+      <PathName>C:\Users\tbsimmen\Documents\Wakanohana_Sumo\Sources\Keys.c</PathName>
       <PathName>C:\Users\tbsimmen\Documents\Wakanohana_Sumo\Sources\LED.c</PathName>
       <PathName>C:\Users\tbsimmen\Documents\Wakanohana_Sumo\Sources\Platform.c</PathName>
+      <PathName>C:\Users\tbsimmen\Documents\Wakanohana_Sumo\Sources\Timer.c</PathName>
       <PathName>C:\Users\tbsimmen\Documents\Wakanohana_Sumo\Sources\main.c</PathName>
     </GeneratedCs>
     <GeneratedHs>
       <PathName>C:\Users\tbsimmen\Documents\Wakanohana_Sumo\Generated_Code\BitIoLdd1.h</PathName>
+      <PathName>C:\Users\tbsimmen\Documents\Wakanohana_Sumo\Generated_Code\BitIoLdd10.h</PathName>
       <PathName>C:\Users\tbsimmen\Documents\Wakanohana_Sumo\Generated_Code\BitIoLdd2.h</PathName>
       <PathName>C:\Users\tbsimmen\Documents\Wakanohana_Sumo\Generated_Code\BitIoLdd3.h</PathName>
+      <PathName>C:\Users\tbsimmen\Documents\Wakanohana_Sumo\Generated_Code\BitIoLdd4.h</PathName>
+      <PathName>C:\Users\tbsimmen\Documents\Wakanohana_Sumo\Generated_Code\BitIoLdd5.h</PathName>
+      <PathName>C:\Users\tbsimmen\Documents\Wakanohana_Sumo\Generated_Code\BitIoLdd6.h</PathName>
+      <PathName>C:\Users\tbsimmen\Documents\Wakanohana_Sumo\Generated_Code\BitIoLdd7.h</PathName>
+      <PathName>C:\Users\tbsimmen\Documents\Wakanohana_Sumo\Generated_Code\BitIoLdd8.h</PathName>
+      <PathName>C:\Users\tbsimmen\Documents\Wakanohana_Sumo\Generated_Code\BitIoLdd9.h</PathName>
+      <PathName>C:\Users\tbsimmen\Documents\Wakanohana_Sumo\Generated_Code\CS1.h</PathName>
       <PathName>C:\Users\tbsimmen\Documents\Wakanohana_Sumo\Generated_Code\Cpu.h</PathName>
+      <PathName>C:\Users\tbsimmen\Documents\Wakanohana_Sumo\Generated_Code\HF1.h</PathName>
       <PathName>C:\Users\tbsimmen\Documents\Wakanohana_Sumo\Generated_Code\IO_Map.h</PathName>
       <PathName>C:\Users\tbsimmen\Documents\Wakanohana_Sumo\Generated_Code\MyBlueLed.h</PathName>
       <PathName>C:\Users\tbsimmen\Documents\Wakanohana_Sumo\Generated_Code\MyGreenLed.h</PathName>
@@ -80,11 +111,24 @@
       <PathName>C:\Users\tbsimmen\Documents\Wakanohana_Sumo\Generated_Code\PE_Error.h</PathName>
       <PathName>C:\Users\tbsimmen\Documents\Wakanohana_Sumo\Generated_Code\PE_LDD.h</PathName>
       <PathName>C:\Users\tbsimmen\Documents\Wakanohana_Sumo\Generated_Code\PE_Types.h</PathName>
+      <PathName>C:\Users\tbsimmen\Documents\Wakanohana_Sumo\Generated_Code\SW1.h</PathName>
+      <PathName>C:\Users\tbsimmen\Documents\Wakanohana_Sumo\Generated_Code\SW2.h</PathName>
+      <PathName>C:\Users\tbsimmen\Documents\Wakanohana_Sumo\Generated_Code\SW3.h</PathName>
+      <PathName>C:\Users\tbsimmen\Documents\Wakanohana_Sumo\Generated_Code\SW4.h</PathName>
+      <PathName>C:\Users\tbsimmen\Documents\Wakanohana_Sumo\Generated_Code\SW5.h</PathName>
+      <PathName>C:\Users\tbsimmen\Documents\Wakanohana_Sumo\Generated_Code\SW6.h</PathName>
+      <PathName>C:\Users\tbsimmen\Documents\Wakanohana_Sumo\Generated_Code\SW7.h</PathName>
+      <PathName>C:\Users\tbsimmen\Documents\Wakanohana_Sumo\Generated_Code\TMR.h</PathName>
+      <PathName>C:\Users\tbsimmen\Documents\Wakanohana_Sumo\Generated_Code\TU1.h</PathName>
+      <PathName>C:\Users\tbsimmen\Documents\Wakanohana_Sumo\Generated_Code\TimerIntLdd1.h</PathName>
       <PathName>C:\Users\tbsimmen\Documents\Wakanohana_Sumo\Generated_Code\WAIT1.h</PathName>
       <PathName>C:\Users\tbsimmen\Documents\Wakanohana_Sumo\Sources\Application.h</PathName>
+      <PathName>C:\Users\tbsimmen\Documents\Wakanohana_Sumo\Sources\Event.h</PathName>
       <PathName>C:\Users\tbsimmen\Documents\Wakanohana_Sumo\Sources\Events.h</PathName>
+      <PathName>C:\Users\tbsimmen\Documents\Wakanohana_Sumo\Sources\Keys.h</PathName>
       <PathName>C:\Users\tbsimmen\Documents\Wakanohana_Sumo\Sources\LED.h</PathName>
       <PathName>C:\Users\tbsimmen\Documents\Wakanohana_Sumo\Sources\Platform.h</PathName>
+      <PathName>C:\Users\tbsimmen\Documents\Wakanohana_Sumo\Sources\Timer.h</PathName>
       <PathName>C:\Freescale\KDS_1.1.1\eclipse\ProcessorExpert\lib\Kinetis\iofiles\MKL25Z4.h</PathName>
       <PathName>C:\Freescale\KDS_1.1.1\eclipse\ProcessorExpert\lib\Kinetis\pdd\inc\ADC_PDD.h</PathName>
       <PathName>C:\Freescale\KDS_1.1.1\eclipse\ProcessorExpert\lib\Kinetis\pdd\inc\CMP_PDD.h</PathName>
