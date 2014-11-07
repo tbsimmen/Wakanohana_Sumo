@@ -10,9 +10,11 @@
 #ifndef APPLICATION_H_
 #define APPLICATION_H_
 
+#include "event.h"
 /*!
  * \brief Application main start and main routine
  */
 void APP_Start(void);
+void APP_EventHandler(EVNT_Handle event);
 
 #endif /* APPLICATION_H_ */
